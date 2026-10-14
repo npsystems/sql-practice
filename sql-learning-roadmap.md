@@ -1,6 +1,5 @@
 # SQL Learning Roadmap
-
-**Primary dialect:** PostgreSQL  
+ 
 **Goal:** Build practical SQL skills through exercises, documented solutions, and a small portfolio project.
 
 ## How to use this roadmap
