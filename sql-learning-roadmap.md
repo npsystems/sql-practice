@@ -7,7 +7,6 @@
 - [ ] Mark a topic complete after you have practiced it and can explain it in your own words.
 - [ ] Save representative solutions in the matching topic folder.
 - [ ] For challenging exercises, document the question, query, explanation, and takeaway.
-- [ ] Focus on the core topics first. Advanced topics can wait until a project calls for them.
 
 ## 1. SQL and Relational Database Fundamentals
 
@@ -89,7 +88,7 @@
 - [ ] `COALESCE` for fallback values when data is `NULL`
 - [ ] `NULLIF` for handling selected values as `NULL`
 
-## 5. Window Functions — Learn After the Core
+## 5. Window Functions 
 
 - [ ] Understand how window functions differ from `GROUP BY` aggregates
 - [ ] `OVER`
@@ -102,19 +101,6 @@
 - [ ] Moving averages
 - [ ] Top N rows per group
 
-## 6. Practical Projects
-
-- [ ] Complete a set of foundational SQL exercises
-- [ ] Analyze a dataset using filters and sorting
-- [ ] Summarize data using aggregations
-- [ ] Combine related tables using joins
-- [ ] Answer a multi-step business question using intermediate SQL
-- [ ] Complete one small end-to-end SQL analysis project
-- [ ] Document the project's goal and business questions
-- [ ] Include readable SQL files and explanations
-- [ ] Include expected output or a result summary when useful
-- [ ] Explain what the results mean in plain language
-- [ ] Add the project to the main repository README
 
 ## 7. SQL Terminology Reference
 
@@ -178,7 +164,7 @@ Use this section as a vocabulary checklist. You do not need to master every term
 - [ ] **Isolation:** Concurrent transactions are controlled to reduce unwanted interference; exact guarantees depend on the isolation level.
 - [ ] **Durability:** Committed changes are designed to survive failures.
 
-## 8. Later Topics — Not Required for the Initial Sprint
+## 8. Later Topics 
 
 ### Advanced SQL patterns
 - [ ] Recursive CTEs
@@ -203,16 +189,3 @@ Use this section as a vocabulary checklist. You do not need to master every term
 - [ ] Transactions, isolation levels, locks, and deadlocks in more depth
 - [ ] Permissions and database administration
 - [ ] More advanced views, procedures, functions, and triggers
-
-## Suggested order
-
-1. SQL and relational database fundamentals
-2. Basic querying, filtering, and sorting
-3. Aggregations
-4. Joins
-5. Selected intermediate SQL topics
-6. A small practical project
-7. Window functions when ready
-8. Advanced topics later, as needed
-
-**Reminder:** For the three-day portfolio sprint, prioritize Sections 1–4 and Section 6. Section 7 is a reference checklist: learn the core vocabulary first and treat performance, procedures, triggers, and ACID details as awareness-level topics for now. Your separate data modeling course can cover deeper database design.
