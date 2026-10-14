@@ -1,6 +1,5 @@
 # SQL Learning Roadmap
 
-**Primary SQL dialect:** PostgreSQL  
 **Purpose:** Track my progress learning SQL through hands-on exercises, documented solutions, and practical projects.
 
 Use the checkboxes to track progress. Mark a topic complete when I have practiced it and can explain how and why it works—not simply after watching a lesson.
