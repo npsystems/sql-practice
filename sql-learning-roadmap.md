@@ -23,7 +23,6 @@
 
 ### Basic querying
 - [ ] `SELECT` and `FROM`
-- [ ] Select specific columns instead of always using `SELECT *`
 - [ ] Column aliases with `AS`
 - [ ] `DISTINCT`
 - [ ] `LIMIT` and `OFFSET`
@@ -34,8 +33,8 @@
 - [ ] `LIKE` and PostgreSQL's `ILIKE`
 - [ ] `IS NULL` and `IS NOT NULL`
 - [ ] `ORDER BY`, `ASC`, and `DESC`
-- [ ] Basic arithmetic expressions
 - [ ] Understand why results are not guaranteed to be sorted without `ORDER BY`
+- [ ] Basic arithmetic expressions
 
 ## 2. Aggregations
 
