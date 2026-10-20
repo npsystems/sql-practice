@@ -1,0 +1,78 @@
+# SELECT and FROM
+
+## 1. Overview
+**Topic: SELECT and FROM commands**  
+**Difficulty:** Beginner   
+**Status:** Completed  
+
+## 2. Definition
+**What is it?**
+
+The SELECT command allows you to pull row information from either all or certain columns. The FROM command specifies which table the SELECT command will be pulling information from.
+
+**Why is it useful?**
+
+The SELECT and FROM commands allow us to retrieve specific information from a table for analysis. By selecting only the columns we need, we can focus on relevant data and make queries easier to read and understand.
+
+## 3. Syntax
+```sql
+-- General syntax
+1
+SELECT *
+FROM [insert table name]
+
+The * pulls all columns of information 
+
+2
+SELECT [column_name1], [column_name2] --- separate multiple column names by commas 
+FROM [insert table name]
+
+Specifying a certain column name(s) within the SELECT command only pulls row information from those columns
+
+```
+
+**Key components:**
+- `SELECT`: Specifies which columns to retrieve from a table.
+- `FROM`: Specifies which table to retrieve the data from.
+
+## 4. Example
+
+**Problem:**  
+Write SQL queries to retrieve specific information from the `Movies` table in the Pixar movies database.
+
+1. Find the `title` of each film.
+2. Find the `director` of each film.
+3. Find the `title` and `director` of each film.
+4. Find the `title` and `year` of each film.
+5. Find all the information about each film.
+
+**SQL query:**  
+See `select-from.sql`.
+
+```sql
+--Query 1
+	SELECT title FROM movies;
+--Query 2
+	SELECT director FROM movies;
+--Query 3
+	SELECT title, director FROM movies;
+--Query 4
+	SELECT title, year FROM movies;
+--Query 5
+	SELECT * FROM movies;
+```
+
+**Expected output or result:**  
+Query 1 will return only the title column from the table movies.
+Query 2 will return only the director column from the table movies.
+Query 3 will return both the title and director columns from the table movies.
+Query 4 will return both the title and year columns from the table movies.
+Query 5 will return all columns from the table movies.
+
+## 5. Explanation
+1. The SELECT statement pulls all columns or defined columns. 
+2. The FROM statement defines which table the SELECT statement will be pulled from
+3. The query statements SELECT and FROM combine to pull all columns or specific columns from a desired table within the database.
+
+## 6. References
+Exercise URL: https://sqlbolt.com/lesson/select_queries_introduction
