@@ -11,32 +11,57 @@
 ## 1. SQL and Relational Database Fundamentals
 
 ### Core terminology
-- [ ] Understand what SQL is and what a relational database is.
-- [ ] Understand the difference between a DBMS and an RDBMS.
-- [ ] Explain tables, rows/records, columns/fields, schemas, and database objects.
-- [ ] Recognize common data types: `INTEGER`, `DECIMAL`, `VARCHAR`, `TEXT`, `DATE`, `TIMESTAMP`, and `BOOLEAN`.
-- [ ] Understand the difference between `NULL`, zero, and an empty string.
-- [ ] Understand primary keys and foreign keys.
-- [ ] Recognize one-to-one, one-to-many, and many-to-many relationships.
-- [ ] Understand what constraints do and why databases use them.
-- [ ] Recognize the broad SQL command categories: DDL, DML, queries (often called DQL), and transaction control.
+- [x] Understand what SQL is and what a relational database is.
+- [x] Understand the difference between a DBMS and an RDBMS.
+- [x] Explain tables, rows/records, columns/fields, schemas, and database objects.
+- [x] Recognize common data types: `INTEGER`, `DECIMAL`, `VARCHAR`, `TEXT`, `DATE`, `TIMESTAMP`, and `BOOLEAN`.
+- [x] Understand the difference between `NULL`, zero, and an empty string.
+- [x] Understand primary keys and foreign keys.
+- [x] Recognize one-to-one, one-to-many, and many-to-many relationships.
+- [x] Understand what constraints do and why databases use them.
+- [x] Recognize the broad SQL command categories: DDL, DML, queries (often called DQL), and transaction control.
 
-### Basic querying
-- [ ] `SELECT` and `FROM`
-- [ ] Column aliases with `AS`
-- [ ] `DISTINCT`
-- [ ] `LIMIT` and `OFFSET`
-- [ ] `WHERE`
-- [ ] Comparison operators: `=`, `<>`, `<`, `>`, `<=`, `>=`
-- [ ] Combine conditions with `AND`, `OR`, and `NOT`
-- [ ] `IN`, `NOT IN`, and `BETWEEN`
-- [ ] `LIKE` and PostgreSQL's `ILIKE`
-- [ ] `IS NULL` and `IS NOT NULL`
-- [ ] `ORDER BY`, `ASC`, and `DESC`
-- [ ] Understand why results are not guaranteed to be sorted without `ORDER BY`
-- [ ] Basic arithmetic expressions
+### Basic Querying
 
-## 2. Aggregations
+#### 1. `SELECT and FROM`
+**Practice file:** `SELECT and FROM.md`
+
+- [x] `SELECT` — retrieve specified columns.
+- [x] `FROM` — specify the table to query.
+- [x] `SELECT *` — retrieve all columns.
+- [x] Select individual columns.
+- [x] Select multiple columns.
+- [x] Column aliases using `AS`.
+ - [x] **Applied in Projects:** See [Project Name](Link) for an example of column aliasing.
+
+#### 2. `WHERE and its Operators`
+**Practice file:** `WHERE and its Operators.md`
+
+- [x] `WHERE` — filter rows based on conditions.
+- [x] Comparison operators: `=`, `!=`, `<>`, `<`, `<=`, `>`, `>=`.
+- [x] Combine conditions using `AND`, `OR`, and `NOT`.
+- [x] `IN` and `NOT IN`.
+- [x] `BETWEEN` and `NOT BETWEEN`.
+- [x] `LIKE` and `NOT LIKE`.
+- [x] Wildcards: `%` and `_`.
+- [ ] PostgreSQL's `ILIKE`.
+- [x] `IS NULL` and `IS NOT NULL`.
+
+#### 3. `Filtering and Sorting`
+**Practice file:** `Filtering and Sorting.md`
+
+- [x] `DISTINCT` — retrieve unique values or combinations of values.
+- [x] `ORDER BY` — sort query results.
+- [x] `ASC` and `DESC` — specify sort direction.
+- [x] Sort by multiple columns.
+- [x] Understand why results are not guaranteed to be sorted without `ORDER BY`.
+- [x] `LIMIT` — restrict the number of returned rows.
+- [x] `OFFSET` — skip a specified number of rows.
+- [x] Combine `ORDER BY`, `LIMIT`, and `OFFSET` to retrieve specific portions of a result set.
+- [x] `GROUP BY` one or more columns.
+- [ ] Basic arithmetic expressions in SQL queries.
+
+### Aggregations
 
 - [ ] `COUNT(*)` and `COUNT(column)`
 - [ ] `SUM`, `AVG`, `MIN`, and `MAX`
